@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		DFE9763F2B4429DC00F43B03 /* AmwalyOnBoardingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE9763E2B4429DC00F43B03 /* AmwalyOnBoardingApp.swift */; };
-		DFE976412B4429DC00F43B03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE976402B4429DC00F43B03 /* ContentView.swift */; };
 		DFE976432B4429DF00F43B03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE976422B4429DF00F43B03 /* Assets.xcassets */; };
-		DFE976462B4429DF00F43B03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE976452B4429DF00F43B03 /* Preview Assets.xcassets */; };
+		DFE976522B442AEA00F43B03 /* OnBoardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE9764D2B442AEA00F43B03 /* OnBoardingViewModel.swift */; };
+		DFE976532B442AEA00F43B03 /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE9764E2B442AEA00F43B03 /* OnBoarding.swift */; };
+		DFE976582B442C2500F43B03 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE976572B442C2400F43B03 /* ViewExtension.swift */; };
+		DFE9765C2B44629500F43B03 /* OnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE9765B2B44629500F43B03 /* OnBoardView.swift */; };
+		DFE9765E2B4462A700F43B03 /* OnBoardDone.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE9765D2B4462A700F43B03 /* OnBoardDone.swift */; };
+		DFE976602B4462C200F43B03 /* OnBoardingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE9765F2B4462C200F43B03 /* OnBoardingBar.swift */; };
+		DFE976632B4473B800F43B03 /* OnBoardingIntroductry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE976622B4473B800F43B03 /* OnBoardingIntroductry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DFE9763B2B4429DC00F43B03 /* AmwalyOnBoarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmwalyOnBoarding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE9763E2B4429DC00F43B03 /* AmwalyOnBoardingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmwalyOnBoardingApp.swift; sourceTree = "<group>"; };
-		DFE976402B4429DC00F43B03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DFE976422B4429DF00F43B03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DFE976452B4429DF00F43B03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFE9764D2B442AEA00F43B03 /* OnBoardingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingViewModel.swift; sourceTree = "<group>"; };
+		DFE9764E2B442AEA00F43B03 /* OnBoarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
+		DFE976572B442C2400F43B03 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		DFE9765B2B44629500F43B03 /* OnBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardView.swift; sourceTree = "<group>"; };
+		DFE9765D2B4462A700F43B03 /* OnBoardDone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardDone.swift; sourceTree = "<group>"; };
+		DFE9765F2B4462C200F43B03 /* OnBoardingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingBar.swift; sourceTree = "<group>"; };
+		DFE976622B4473B800F43B03 /* OnBoardingIntroductry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingIntroductry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,19 +62,32 @@
 			isa = PBXGroup;
 			children = (
 				DFE9763E2B4429DC00F43B03 /* AmwalyOnBoardingApp.swift */,
-				DFE976402B4429DC00F43B03 /* ContentView.swift */,
+				DFE976612B4462CE00F43B03 /* View Models */,
+				DFE9764C2B442AEA00F43B03 /* OnBoarding */,
 				DFE976422B4429DF00F43B03 /* Assets.xcassets */,
-				DFE976442B4429DF00F43B03 /* Preview Content */,
 			);
 			path = AmwalyOnBoarding;
 			sourceTree = "<group>";
 		};
-		DFE976442B4429DF00F43B03 /* Preview Content */ = {
+		DFE9764C2B442AEA00F43B03 /* OnBoarding */ = {
 			isa = PBXGroup;
 			children = (
-				DFE976452B4429DF00F43B03 /* Preview Assets.xcassets */,
+				DFE9764E2B442AEA00F43B03 /* OnBoarding.swift */,
+				DFE976622B4473B800F43B03 /* OnBoardingIntroductry.swift */,
+				DFE9765F2B4462C200F43B03 /* OnBoardingBar.swift */,
+				DFE9765D2B4462A700F43B03 /* OnBoardDone.swift */,
+				DFE9765B2B44629500F43B03 /* OnBoardView.swift */,
+				DFE976572B442C2400F43B03 /* ViewExtension.swift */,
 			);
-			path = "Preview Content";
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		DFE976612B4462CE00F43B03 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				DFE9764D2B442AEA00F43B03 /* OnBoardingViewModel.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +148,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFE976462B4429DF00F43B03 /* Preview Assets.xcassets in Resources */,
 				DFE976432B4429DF00F43B03 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +159,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFE976412B4429DC00F43B03 /* ContentView.swift in Sources */,
+				DFE976522B442AEA00F43B03 /* OnBoardingViewModel.swift in Sources */,
+				DFE9765E2B4462A700F43B03 /* OnBoardDone.swift in Sources */,
+				DFE976632B4473B800F43B03 /* OnBoardingIntroductry.swift in Sources */,
+				DFE9765C2B44629500F43B03 /* OnBoardView.swift in Sources */,
+				DFE976532B442AEA00F43B03 /* OnBoarding.swift in Sources */,
+				DFE976602B4462C200F43B03 /* OnBoardingBar.swift in Sources */,
+				DFE976582B442C2500F43B03 /* ViewExtension.swift in Sources */,
 				DFE9763F2B4429DC00F43B03 /* AmwalyOnBoardingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,7 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AmwalyOnBoarding/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AmwalyOnBoarding\"";
 				DEVELOPMENT_TEAM = V5PYF6B332;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -300,7 +328,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AmwalyOnBoarding/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AmwalyOnBoarding\"";
 				DEVELOPMENT_TEAM = V5PYF6B332;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
